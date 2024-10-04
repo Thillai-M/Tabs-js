@@ -1,0 +1,12 @@
+
+:root{
+    --c-tomato:#ff6347;
+    --c-black:#202020;
+    --c-white:#ffffff;
+    --c-green:#4CAF50;
+
+}
+
+.c-white{color: var(--c-white);}
+.c-blk{color: var(--c-black);}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Tabs-with,js" />
+		<meta name="keywords" content="Js-Tabs ,html,css,js" />
+		<meta name="author" content="Thillai" />
+		<title>Zoho Pages</title>
+
+		<!-- CSS -->
+
+		<!-- common-style -->
+		<link rel="stylesheet" href="./css/colors.css" />
+		<link rel="stylesheet" href="./css/flex.css" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="stylesheet" href="./css/style-bits.css" />
+		<link rel="stylesheet" href="./css/animation.css" />
+
+		<!-- component-style -->
+		<link rel="stylesheet" href="./css/button.css" />
+		<link rel="stylesheet" href="./css/home.css" />
+
+		<!-- CSS -->
+	</head>
+	<body>
+		<!-- Tabs Container -->
+		<div class="tab-container">
+			<h1 class="tittle">Zoho Home Page</h1>
+			<div class="tab-btn-container mT20">
+				<ul class="tab-btn-lists D-flx AI-C G-20">
+					<li class="tab-btn-list active"><button class="btn tab-btn" onclick="tab_change(0)">Home</button></li>
+					<li class="tab-btn-list"><button class="btn tab-btn" onclick="tab_change(1)">Product</button></li>
+					<li class="tab-btn-list"><button class="btn tab-btn" onclick="tab_change(2)">About</button></li>
+					<li class="tab-btn-list"><button class="btn tab-btn" onclick="tab_change(3)">Contact</button></li>
+				</ul>
+			</div>
+
+			<div class="tab-content-container">
+				<div class="tab-content-list active" id="first-tab-content">
+					<h3 class="content-title">Home</h3>
+					<p>
+						Zoho Office Suite is an Indian web-based online office suite containing word processing, spreadsheets, presentations, databases, note-taking, wikis, web conferencing, CRM, project management, invoicing, and other
+						applications.
+					</p>
+				</div>
+
+				<div class="tab-content-list" id="second-tab-content">
+					<h3 class="content-title">Product</h3>
+					<p>Zoho uses an open application programming interface for its Writer, Sheet, Show, Creator, Meeting, and Planner products. It also has plugins into Microsoft Word and Excel.</p>
+				</div>
+
+				<div class="tab-content-list" id="third-tab-content">
+					<h3 class="content-title">About</h3>
+					<p>Zoho Office Suite was launched in 2005 with a web-based word processor. Additional products like spreadsheets and presentations were added later. Zoho applications are distributed as SaaS.</p>
+				</div>
+
+				<div class="tab-content-list" id="fourth-tab-content">
+					<h3 class="content-title">Contact</h3>
+					<p>Zoho Office Suite is an Indian web-based online office suite containing word processing, spreadsheets, presentations, databases, note-taking, and more.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- \\\ tabs -->
+
+		<!-- js -->
+		<script src="./js/script.js"></script>
+		<!-- \\\ js -->
+	</body>
+</html>

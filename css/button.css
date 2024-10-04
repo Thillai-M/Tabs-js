@@ -1,0 +1,19 @@
+
+.btn{
+    display: inline-block;
+    border: none;
+    outline: none;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    background: none;
+
+}
+.btn.tab-btn{
+    padding: 10px 20px;
+    border: none;
+    background-color:var(--c-green);
+    color:var(--c-white);
+    cursor: pointer;
+    transition: background-color var(--deaf-trans);
+    border-radius: 5px;
+}

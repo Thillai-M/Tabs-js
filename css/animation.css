@@ -1,0 +1,10 @@
+
+:root{
+    
+    --trans:all ease-in-out;
+
+    --one-sec:.1s;
+    --three-sec:.3s;
+
+    --deaf-trans:var(--trans) var(--three-sec);
+}

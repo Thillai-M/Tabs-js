@@ -1,0 +1,47 @@
+
+
+.tittle{
+    text-align: center;
+    font-size: 25px;
+}
+
+.tab-container{
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+.tab-btn-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.tab-container {
+    padding: 40px;
+}
+
+
+.tab-btn-list {
+    transition:var(--deaf-trans);
+    position: relative;
+}
+
+.tab-content-container {
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.tab-content-list {
+    display: none;
+}
+
+.tab-content-list:first-child{
+    display: block;
+}
+
+.tab-btn-list.active .tab-btn{
+    color: var(--c-white);
+    background-color: var(--c-black);
+}

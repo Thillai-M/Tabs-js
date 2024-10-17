@@ -13,18 +13,12 @@ function tab_change(tab_content_positon) {
 }
 
 
-// active-bg
 const tab_btn_Lists = document.querySelectorAll('.tab-btn-list');
 
-tab_btn_Lists.forEach((tab_btn_List) => {
-    tab_btn_List.addEventListener('click', () => {
-        tab_btn_Lists.forEach((item) => {
-            if (item !== this && item.classList.contains('active')){
-                item.classList.remove('active')
-            };
-        });
-        tab_btn_List.classList.add('active');
+for (let tab_btn of tab_btn_Lists) {
+    tab_btn.addEventListener('click', function() {
+        document.querySelector('.tab-btn-list.active')?.classList.remove('active');
+        this.classList.add('active');
     });
-});
-
+}
 

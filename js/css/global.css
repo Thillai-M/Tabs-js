@@ -1,0 +1,25 @@
+
+
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: var(--c-black);
+    line-height: 1.3;
+}
+
+a {
+    text-decoration: none;
+    color: #446eff;
+}
+
+ul li {
+    list-style: none;
+}
+/* \\\common */
